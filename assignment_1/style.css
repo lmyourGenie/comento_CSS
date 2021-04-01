@@ -14,7 +14,7 @@ html {
   height: 300px;
   line-height: 300px;
   font-size: 20px;
-  text-align: center; /* 안되는줄알았는데 왜 되지? */
+  text-align: center;
   color: white;
   vertical-align: middle;
 }
