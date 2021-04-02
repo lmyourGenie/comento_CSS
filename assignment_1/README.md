@@ -5,4 +5,4 @@
 ### display: block, inline-block, inline에 대해 개념잡기
 
 
-<img src = "./res/assignment1.png" width="65%">
+<img src = "../res/assignment1.png" width="65%">
