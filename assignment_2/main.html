@@ -2,21 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Document (Float 속성을 이용)</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* 이미지 */
+        div.main{ float: left; margin-bottom: 30px;}
+        div.sub{ float: left; margin-left: 30px;}
+        div.sub2{ float: left; margin-left: 30px; margin-top: 30px;}
+        div.sub3{ float: left;  margin-top: 30px;}
+
+        /* 설명 */
+        div.text_big{ float: left;  display: inline-block;
+            vertical-align: top; width: 384px; height: 500px;}
+
+        div.text_small{ float: left;  display: inline-block;
+            vertical-align: top; width: 350px; height: 250px;}
+
+
+
+        div.a a{text-decoration:  none;}
+        div.a p{margin: 0px; padding: 0px;}
+
+
+    </style>
 </head>
 
-<body>
-    <div class="pagename">OTHER PACKAGES</div>
-    <br>
+<body bgcolor="#F5FAFE">
+<div class="title_box">
+    <h1 style="text-align:center; margin-bottom: 30px;">OTHER PACKAGES</h1>
+</div>
+    <!--style="background-image: url('../res/image1.png')"-->
 
-    <div class="grid">
-        <div class="grid_item first"></div>
-        <div class="grid_item two"></div>
+<div class="body_set">
+    <div style="overflow: auto; margin-left: 165px">
+        <div class="main teduri_left"><img src="../res/image1.png" width="100%" height="100%"></div>
+        <div class="text_big teduri_right color1"><span></span></div>
+
+        <div class="sub teduri_top"><img src="../res/image2.png" width="100%" height="100%"></div>
+
+        <!--
+        <div class="text_small teduri_bottom color1 marginleft top-2 relative">
+            <span>inline</span></div>-->
+
+</div>
+    <div class="body_set">
+        <div style="overflow: auto; margin-left: 165px">
+        <div class="sub3 teduri_top"><img src="../res/image3.png" width="100%" height="100%"></div>
+        <div class="text_small teduri_bottom color1">
+            <span></span></div>
+
+        <div class="sub2 teduri_top"><img src="../res/image4.png" width="100%" height="100%"></div>
+        <div class="text_small teduri_bottom color1 marginleft">
+            <span></span></div>
+
+        <div class="sub2 teduri_top"><img src="../res/image5.png" width="100%" height="100%"></div>
+        <div class="text_small teduri_bottom color1 marginleft">
+            <span></span></div>
+
     </div>
-    <div class="layout-Wrapper2">
-        <span>Inline</span>
-    </div>
+</div>
+
+<div class="bottom_space">
+    <div style="background: #0A223D"></div>
+</div>
 </body>
 </html>

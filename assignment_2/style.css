@@ -1,41 +1,83 @@
-/* Other Packages */
-.pagename{
-    position: absolute;
-    width: 327px;
-    height: 45px;
-    left: 556px;
-    top: 40px;
+.title_box {
+    width: 100%;
+    height: 150px;
+}
 
-    font-family: Mulish;
-    font-style: normal;
+.body_set {
+    width:100%;
+    height:550px;
+    float:left;
+    border-bottom-width:thin;
+    border-bottom-color:rgba(25,80,100,0);
+    border-bottom:solid;
+}
+
+.bottom_space {
+    margin-top: 1250px;
+    width:100%;
+    height:260px;
+}
+
+
+
+
+.teduri_left{
+    border-radius: 8px 0px 0px 8px;
+}
+
+.teduri_right{
+    border-radius: 0px 8px 8px 0px;
+}
+
+.teduri_top{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.teduri_bottom{
+    border-radius: 0px 0px 8px 8px;
+}
+
+.relative {
+    position: relative;
+}
+.top-2 {
+    top: -3px;
+}
+
+
+.color1{ background-color: #0A223D; }
+.marginleft{margin-left: 30px;}
+
+
+/*안씀*/
+.float-frame {
+    padding-left: 165px;
+    padding-top: 65px;
+    overflow: hidden;
+}
+
+.float-unit {
+    width: 50px;
+    background: #fff;
+    color: #fff;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 45px;
     text-align: center;
-    text-transform: uppercase;
+    padding: 15px 0;
 
-    /* Gray 1 */
-    color: #333333;
-    white-space:pre;
+    float: left; /*가로로 나열*/
 }
+.
 
+.book-now{
+    /*rectangular*/
 
-.grid {
-    width: 500px;
-    margin: 0 auto;
-    background-color: dimgrey;
-    overflow: hidden; /*부모 높이를 잊어벼리기때문에 다시 높이를 생기게끔해주는 float해재 기법*/
-}
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 1134px;
+    top: 1115px;
 
-.grid_item {
-    width: 100px;
-    height: 100px;
-    float: left; /*가로 정렬을 하기위한 float*/
-}
-
-.grid_item.first {background-color: orange;}
-.grid_item.two {background-color: yellowgreen;}
-
-.layout-Wrapper2{
-
+    background: #EC1F46;
+    border-radius: 4px;
 }
