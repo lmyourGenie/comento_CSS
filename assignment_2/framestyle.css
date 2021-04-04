@@ -51,20 +51,50 @@ html {
     top: -2px;
 }
 
-
 .maincolor{ background-color: #0A223D; }
 .marginleft{margin-left: 30px;}
 
 
 .book-now{
-    /*rectangular*/
-
-    position: absolute;
     width: 120px;
     height: 40px;
-    left: 1134px;
-    top: 1115px;
-
+    line-height: 40px;
+    margin-right: 21px;
+    float: right;
     background: #EC1F46;
     border-radius: 4px;
+    text-align:center;
+}
+
+.newscontainer{
+    margin: 98px 0 87px 354px;
+}
+
+.img{
+
+    position: relative;
+    background-image: url('../res/bottomimage.png');
+    height: 260px;
+    width: 100%;
+}
+
+.img-cover{
+    position: absolute;
+    height: 260px;
+    width: 100%;
+    background-color: rgba(10,34,61,0.8);
+    z-index:1;
+}
+
+.img .subscribe{
+    margin: 98px 0 87px 354px;
+    position: absolute;
+    font-size: 24px;
+    z-index: 2;
+    text-align: center;
+}
+
+.img .letterText{
+    font-size: 36px;
+    text-transform: uppercase;
 }

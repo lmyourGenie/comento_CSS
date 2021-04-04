@@ -22,12 +22,11 @@
         div.text_small{ float: left;  display: inline-block; width: 350px; height: 250px;}
 
         /* 하단 영역*/
-        div.newsletter{ float: left;  display: inline-block; width: 1440px; height: 250px; }
+        div.newsletter{ display: inline-block; width: 1440px; height: 250px; }
 
 
         div.a a{text-decoration:  none;}
         div.a p{margin: 0px; padding: 0px;}
-
 
     </style>
 </head>
@@ -40,6 +39,7 @@
 <!-- 첫 번째 줄 -->
 <div class="body_set">
     <div style="overflow: auto;" >
+        <!--1번째 호텔-->
         <div class="main teduri_left"><img src="../res/image1.png" width=366px height=500px></div>
 
         <div class="text_big teduri_right maincolor">
@@ -77,9 +77,16 @@
                 <span class="three_text">1 x Room</span>
             </div>
 
+            <div class="pre_price" style="margin-top: 37px;">$ 10,500</div>
+
+            <div>
+                <span class="now_price">$ 8,500</span>
+                <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
+            </div>
+
         </div>
 
-
+        <!--2번째 호텔-->
         <div class="sub teduri_top"><img src="../res/image2.png" width=350px height=250px></div>
         <div class="text_small teduri_bottom maincolor marginleft bottom-2 relative">
             <div class="margin30">
@@ -105,10 +112,19 @@
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
+
+            <div class="pre_price" style="margin-top: 37px;">$ 8,500</div>
+
+            <div>
+                <span class="now_price">$ 3,000</span>
+                <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
+            </div>
+
         </div>
 
     </div>
 </div>
+
 
 <!-- 두 번째 줄 -->
 <div class="body_set" style="margin-bottom: 70px">
@@ -142,6 +158,14 @@
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
+
+            <div class="pre_price" style="margin-top: 37px;">$ 10,500</div>
+
+            <div>
+                <span class="now_price">$ 9,500</span>
+                <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
+            </div>
+
         </div>
 
 
@@ -171,6 +195,14 @@
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
+
+            <div class="pre_price" style="margin-top: 37px;">$ 4,500</div>
+
+            <div>
+                <span class="now_price">$ 2,500</span>
+                <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
+            </div>
+
         </div>
 
 
@@ -200,15 +232,41 @@
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
+
+            <div class="pre_price" style="margin-top: 37px;">$ 6,500</div>
+
+            <div>
+                <span class="now_price">$ 3,500</span>
+                <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
+            </div>
+
         </div>
     </div>
 </div>
 
 
 <div class="bottom_space">
-    <div class="newsletter" style="background: #0A223D">
-        <span></span>
+    <div class="newsletter" style="position: relative;">
+        <!--
+        <div style="position: absolute; background-color: rgba(10,34,61,0.8);
+        z-index:10; height:260px; width:100%"></div>
+        <img src="../res/bottomimage.png" style="position:relative; z-index:1">
+-->
+
+        <div class="img">
+            <div class="subscribe whitetext">subscribe to our</div>
+            <div class="letterText whitetext">NEWSLETTER</div>
+            <div class="img-cover"></div>
+        </div>
+
+        <!--
+        <div class="newscontainer">
+            <div class="subscribe whitetext">subscribe to our</div>
+            <div class="letterText whitetext">NEWSLETTER</div>
+        </div>
+        -->
     </div>
+
 </div>
 
 </body>
