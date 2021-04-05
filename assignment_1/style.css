@@ -8,7 +8,7 @@ html {
 }
 
 .layout-Wrapper1 {
-  display:block;
+  display: block;
   background-color: rgb(34,85,163);
   width: 300px;
   height: 300px;
@@ -19,7 +19,7 @@ html {
 }
 
 .layout-Wrapper2{
-  display:inline-block;
+  display: inline-block;
   background-color: goldenrod;
   width: 100px;
   height: 100px;
