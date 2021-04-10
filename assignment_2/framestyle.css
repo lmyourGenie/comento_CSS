@@ -83,26 +83,20 @@ html {
     z-index:1;
 }
 
-.img .box .subscribe{
+.img .subscribe{
+    display: inline-block;
     margin: 98px 0 87px 354px;
     position: absolute;
     font-size: 24px;
     z-index: 2;
 }
 
-.img .box .subscribe2{
+.img .subscribe2{
+    display: inline-block;
     margin: 128px 0 87px 354px;
     position: absolute;
-    font-size: 24px;
+    font-size: 36px;
     z-index: 2;
-}
-
-.img .searchbar .findbar{
-    margin: 108px 0 97px 735px;
-    font-size: 14px;
-    color: #BDBDBD;
-    padding: 19px  131px 18px 33px;
-    z-index: 3;
 }
 
 .img .searchbar .findbar2{
@@ -114,19 +108,39 @@ html {
     z-index: 3;
 }
 
-
-
-.image {
+/* Your email address */
+.img .img_email {
+    display: inline-block;
     margin: 108px 0 97px 735px;
     position: relative;
     text-align: center;
     color: white;
+    z-index: 3;
 }
-.image div {
+.img .img_email .text1{
     position: absolute;
-    margin: 108px 355px 97px 0;
+    top: 19px;
+    left: 33px;
     font-size: 14px;
     color: #BDBDBD;
-    padding: 19px  131px 18px 33px;
     z-index: 3;
+}
+
+/* Send */
+.img .img_send{
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 108px 0 97px 1020px;
+    text-align: center;
+    color: white;
+    z-index: 4;
+}
+.img .img_send .text2{
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    top: 20px;
+    left: 18px;
+    z-index: 4;
 }
