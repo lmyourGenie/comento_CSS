@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Document (Float 속성을 이용)</title>
@@ -7,27 +7,19 @@
     <link rel="stylesheet" type="text/css" href="textstyle.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
         /* 이미지 */
         div.main{ float: left; margin-bottom: 30px;}
-        div.sub{ float: left; margin-left: 30px;}
-        div.sub2{ float: left; margin-left: 30px;}
-        div.sub3{ float: left;}
-
-
+        div.sub{ float: left; margin-left: 30px; font-size:0; letter-spacing:0; word-spacing:0;}
+        div.sub2{ float: left; font-size:0; letter-spacing:0; word-spacing:0;}
         /* 설명 */
         div.text_big{ float: left;  display: inline-block; width: 364px; height: 500px;}
-
-        div.text_small{ float: left;  display: inline-block; width: 350px; height: 250px;}
-
+        div.text_small{ float: left; font-size: 0; display: inline-block; width: 350px; height: 250px;}
         /* 하단 영역*/
         div.newsletter{ display: inline-block; width: 1440px; height: 250px; }
 
-
         div.a a{text-decoration:  none;}
         div.a p{margin: 0px; padding: 0px;}
-
     </style>
 </head>
 
@@ -35,34 +27,26 @@
 <div class="title_box">
     <h1>OTHER PACKAGES</h1>
 </div>
-
 <!-- 첫 번째 줄 -->
 <div class="body_set">
     <div style="overflow: auto;" >
         <!--1번째 호텔-->
         <div class="main teduri_left"><img src="../res/image1.png" width=366px height=500px></div>
-
         <div class="text_big teduri_right maincolor">
-
             <span class="star" style="margin-left: 44px; margin-top: 47px;"><img src="../res/vector/star.svg" ></span>
             <span class="star" style="margin-top: 47px;"><img src="../res/vector/star.svg" ></span>
             <span class="star" style="margin-top: 47px;"><img src="../res/vector/star.svg" ></span>
             <span class="star" style="margin-top: 47px;"><img src="../res/vector/star.svg" ></span>
             <span class="star" style="margin-top: 47px;"><img src="../res/vector/star.svg" ></span>
-
             <div class="main_hotel_name">
                 Hotel Blue Haven
             </div>
             <div class="in_text">
                 Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum est fugiat velit ea ullamco do
             </div>
-
-            <div>
-                <span style="margin-left: 47.17px; width: 11.17px; height: 14px;">
+            <span style="margin-left: 47.17px; width: 11.17px; height: 14px;">
                     <img src="../res/vector/map-pin.svg"></span>
-                <span class="three_text">1749 Wheeler Ridge Delaware</span>
-            </div>
-
+            <span class="three_text">1749 Wheeler Ridge Delaware</span>
             <div class="margin11">
                 <span style="margin-left: 50.08px; width: 5.83px; height: 5.83px;">
                     <img src="../res/vector/humanhead.svg"></span>
@@ -70,35 +54,30 @@
                     <img src="../res/vector/humanbody.svg"></span>
                 <span class="three_text">2 x Guests</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 47.17px; width: 11.17px; height: 12.83px;">
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
-
             <div class="pre_price" style="margin-top: 37px;">$ 10,500</div>
-
             <div>
                 <span class="now_price">$ 8,500</span>
                 <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
             </div>
-
         </div>
+        <!--1 번째 호텔 끝-->
 
-        <!--2번째 호텔-->
+        <!--2 번째 호텔-->
         <div class="sub teduri_top"><img src="../res/image2.png" width=350px height=250px></div>
-        <div class="text_small teduri_bottom maincolor marginleft bottom-2 relative">
+        <div class="text_small teduri_bottom maincolor marginleft relative">
             <div class="margin30">
                 <span class="sub_hotel_name" style="margin-top: 34px;">LUX* Belle Mare</span>
             </div>
-
             <div style="margin-top: 23px;">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 14px;">
                     <img src="../res/vector/map-pin.svg"></span>
                 <span class="three_text">1749 Wheeler Ridge Delaware</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 36.08px; width: 5.83px; height: 5.83px;">
                     <img src="../res/vector/humanhead.svg"></span>
@@ -106,45 +85,37 @@
                     <img src="../res/vector/humanbody.svg"></span>
                 <span class="three_text">2 x Guests</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 12.83px;">
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
-
             <div class="pre_price" style="margin-top: 37px;">$ 8,500</div>
-
             <div>
                 <span class="now_price">$ 3,000</span>
                 <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
             </div>
-
         </div>
-
+        <!--2 번째 호텔 끝-->
     </div>
 </div>
-
 
 <!-- 두 번째 줄 -->
 <div class="body_set" style="margin-bottom: 70px">
     <div style="overflow: auto;">
-        <div class="sub3 teduri_top"><img src="../res/image3.png" width=350px height=250px></div>
-        <div class="sub2 teduri_top"><img src="../res/image4.png" width=350px height=250px></div>
-        <div class="sub2 teduri_top"><img src="../res/image5.png" width=350px height=250px></div>
-
-        <!--3번째 호텔-->
-        <div class="text_small teduri_bottom maincolor bottom-2 relative">
+        <div class="sub2 teduri_top"><img src="../res/image3.png" width=350px height=250px></div>
+        <div class="sub teduri_top"><img src="../res/image4.png" width=350px height=250px></div>
+        <div class="sub teduri_top"><img src="../res/image5.png" width=350px height=250px></div>
+        <!--3 번째 호텔-->
+        <div class="text_small teduri_bottom maincolor relative">
             <div class="margin30">
                 <span class="sub_hotel_name" style="margin-top: 34px;">White Palace</span>
             </div>
-
             <div style="margin-top: 23px;">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 14px;">
                     <img src="../res/vector/map-pin.svg"></span>
                 <span class="three_text">1749 Wheeler Ridge Delaware</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 36.08px; width: 5.83px; height: 5.83px;">
                     <img src="../res/vector/humanhead.svg"></span>
@@ -152,36 +123,29 @@
                     <img src="../res/vector/humanbody.svg"></span>
                 <span class="three_text">2 x Guests</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 12.83px;">
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
-
             <div class="pre_price" style="margin-top: 37px;">$ 10,500</div>
-
             <div>
                 <span class="now_price">$ 9,500</span>
                 <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
             </div>
-
         </div>
+        <!--3 번째 호텔 끝-->
 
-
-
-        <!--4번째 호텔-->
-        <div class="text_small teduri_bottom maincolor marginleft bottom-2 relative">
+        <!--4 번째 호텔-->
+        <div class="text_small teduri_bottom maincolor marginleft relative">
             <div class="margin30">
                 <span class="sub_hotel_name" style="margin-top: 34px;">Luxury Place</span>
             </div>
-
             <div style="margin-top: 23px;">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 14px;">
                     <img src="../res/vector/map-pin.svg"></span>
                 <span class="three_text">1749 Wheeler Ridge Delaware</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 36.08px; width: 5.83px; height: 5.83px;">
                     <img src="../res/vector/humanhead.svg"></span>
@@ -189,85 +153,82 @@
                     <img src="../res/vector/humanbody.svg"></span>
                 <span class="three_text">2 x Guests</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 12.83px;">
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
-
             <div class="pre_price" style="margin-top: 37px;">$ 4,500</div>
-
             <div>
                 <span class="now_price">$ 2,500</span>
                 <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
             </div>
 
         </div>
+        <!--4 번째 호텔 끝-->
 
-
-
-        <!--5번째 호텔-->
-        <div class="text_small teduri_bottom maincolor marginleft bottom-2 relative">
+        <!--5 번째 호텔-->
+        <div class="text_small teduri_bottom maincolor marginleft  relative">
             <div class="margin30">
                 <span class="sub_hotel_name" style="margin-top: 34px;">Hotel Five Star</span>
             </div>
-
             <div style="margin-top: 23px;">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 14px;">
                     <img src="../res/vector/map-pin.svg"></span>
                 <span class="three_text">1749 Wheeler Ridge Delaware</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 36.08px; width: 5.83px; height: 5.83px;">
                     <img src="../res/vector/humanhead.svg"></span>
                 <span style="margin-left: 33.75px; margin-top: 1.17px; width: 10.5px; height: 4.67px;">
-                    <img src="../res/vector/humanbody.svg"></span>
+                <img src="../res/vector/humanbody.svg"></span>
                 <span class="three_text">2 x Guests</span>
             </div>
-
             <div class="margin11">
                 <span style="margin-left: 33.17px; width: 11.17px; height: 12.83px;">
                     <img src="../res/vector/home.svg"></span>
                 <span class="three_text">1 x Room</span>
             </div>
-
             <div class="pre_price" style="margin-top: 37px;">$ 6,500</div>
-
             <div>
                 <span class="now_price">$ 3,500</span>
                 <span class="book-now whitetext" style="margin-bottom: 30px;">Book Now</span>
             </div>
-
         </div>
+        <!--5 번째 호텔 끝-->
     </div>
 </div>
-
-
+<!-- 하단 영역 -->
 <div class="bottom_space">
     <div class="newsletter" style="position: relative;">
-        <!--
-        <div style="position: absolute; background-color: rgba(10,34,61,0.8);
-        z-index:10; height:260px; width:100%"></div>
-        <img src="../res/bottomimage.png" style="position:relative; z-index:1">
--->
-
         <div class="img">
-            <div class="subscribe whitetext">subscribe to our</div>
-            <div class="letterText whitetext">NEWSLETTER</div>
-            <div class="img-cover"></div>
-        </div>
+            <div class="box">
+                <div class="subscribe whitetext">subscribe to our</div>
+                <div class="subscribe2 whitetext">NEWSLETTER</div>
+                <div class="img-cover"></div>
+            </div>
 
-        <!--
-        <div class="newscontainer">
-            <div class="subscribe whitetext">subscribe to our</div>
-            <div class="letterText whitetext">NEWSLETTER</div>
+            <span class="image">
+                <img src="../res/rectangle1.png">
+                <div>Your email address</div>
+            </span>
+            <span class="image">
+                <img src="../res/rectangle2.png">
+                <div>Send</div>
+            </span>
+<!--
+            <div class="searchbar">
+                <span class="findbar whitetext">
+                    <img src="../res/rectangle1.png">Your email address</span>
+                </span>
+                <span class="findbar2 whitetext">
+                    <img src="../res/rectangle2.png">Send</span>
+                </span>
+            </div>
+            -->
+
         </div>
-        -->
     </div>
-
 </div>
-
 </body>
 </html>

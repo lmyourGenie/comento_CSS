@@ -13,6 +13,7 @@
     color: white;
 }
 
+/* 메인 호텔 세부 설명 */
 .in_text{
     margin: 0 21px 34px 44px;
     font-size: 14px;
@@ -59,13 +60,3 @@
 .whitetext{
     color: white;
 }
-/*
-.subscribe{
-    font-size: 24px;
-}
-
-.letterText{
-    font-size: 36px;
-    text-transform: uppercase;
-}
-*/
