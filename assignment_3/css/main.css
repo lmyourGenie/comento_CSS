@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    border-bottom: 1px solid gray;
+    padding-left:20px;
+}
+footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+}
+.content {
+    /* 배치하고자하는 자식들의 부모에 display:flex를 항상줘야함 */
+    display: flex;
+}
+.content nav {
+    border-right: 1px solid gray;
+}
+.content aside {
+    border-left: 1px solid gray;
+}
+nav,aside {
+    /* 화면이 줄어들어도 nav와 ad부분은 줄어들지 않도록... */
+    flex-basis: 150px;
+    flex-shrink: 0;
+    /* 중간에 main만 줄어들게 됨 */
+}
+main {
+    padding: 10px;
+}
