@@ -5,3 +5,5 @@
 ### 1. Float를 이용해 IE 10이하의 구형 브라우저에서 레이아웃 설계하기
 ### 2. Float 해제하기
 
+<img src = "../res/assignment2.png" width="65%">
+
