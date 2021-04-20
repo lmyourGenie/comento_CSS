@@ -7,7 +7,7 @@
   
 
 ## 설계
-<img src = "../res/flex-design.png" width="65%">
+<img src = "../res/flex-design.jpg" width="65%">
 
 ## 결과물
 <img src = "../res/assignment3.png" width="65%">
