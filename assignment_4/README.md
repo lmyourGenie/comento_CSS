@@ -6,3 +6,8 @@
 ### 2. 최신 스택에 맞게 레이아웃 설계하기
 
 
+## 설계
+<img src = "../res/grid-design.jpg" width="65%">
+
+## 결과물
+<img src = "../res/assignment4.png" width="65%">
