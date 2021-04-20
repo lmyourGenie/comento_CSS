@@ -9,5 +9,7 @@
 ## 설계
 <img src = "../res/grid-design.jpg" width="65%">
 
+<img src="img/grid-proto.png" width="65%">
+
 ## 결과물
 <img src = "../res/assignment4.png" width="65%">

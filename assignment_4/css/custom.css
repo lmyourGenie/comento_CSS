@@ -1,0 +1,267 @@
+.container {
+    background-color: #F5FAFE;
+    /* 수직 정렬 */
+}
+
+h1 {
+    margin: 0;
+}
+
+#main-wrapper {
+    width: 1110px;
+    height: 1030px;
+    /* 중앙정렬 */
+    margin: 65px auto 70px auto;
+}
+
+/* grid로 레이아웃 짜기 */
+/* 위층 */
+#outer-grid {
+    display: grid;
+    grid-template-columns: 730px 350px;
+    color: white;
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* 아래층 */
+#outer-grid2 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    color: white;
+    grid-gap: 30px;
+}
+
+/* 메인 호텔 */
+#inner-grid-main {
+    display: grid;
+    grid-template-columns: 366px 364px;
+    background: #0A223D;
+}
+
+/* 서브 호텔들 */
+.inner-grid-sub {
+    display: grid;
+    width: 350px;
+    grid-template-rows: 250px 250px;
+    background: #0A223D;
+}
+
+.star {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-top: 47px;
+    margin-left: 44px;
+}
+.star2 {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-top: 47px;
+}
+
+.main-hotel-name {
+    margin: 6px 0 27px 43px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.sub-hotel-name {
+    margin-top: 30px;
+    margin-left: 32px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+/* 각 호텔의 디테일 관련 */
+.ul-detail {
+    margin-top: 11px;
+    list-style: none;
+    padding-left: 0;
+}
+.li-detail {
+    margin-bottom: 11px;
+}
+.map {
+    width: 14px;
+    height: 14px;
+}
+.user {
+    width: 14px;
+    height: 14px;
+}
+.home {
+    width: 14px;
+    height: 14px;
+}
+.in-text {
+    margin: 0 21px 34px 44px;
+    font-size: 14px;
+    line-height: 160.6%;
+    color: white;
+}
+.person-room-main {
+    margin: 34px 115px 24px 46px;
+}
+.person-room {
+    margin: 23px 115px 24px 32px;
+}
+.three-text {
+    margin-left: 15.17px;
+    font-size: 12px;
+    color: white;
+}
+
+/* 가격 할인 */
+.pre-price-main {
+    font-size: 14px;
+    margin: 24px 0 5px 46px;
+    color: white;
+    text-decoration-line: line-through;
+}
+
+.now-price-main {
+    font-size: 24px;
+    margin-left: 46px;
+    color: white;
+}
+
+.pre-price {
+    font-size: 14px;
+    margin: 24px 0 5px 32px;
+    color: white;
+    text-decoration-line: line-through;
+}
+
+.now-price {
+    font-size: 24px;
+    margin-left: 32px;
+    color: white;
+}
+
+/* 테두리 깎기 */
+.teduri-all {
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* NEWSLETTER */
+.newsLetter {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height:260px;
+    background-image: url('../img/bottomimage.png');
+}
+
+.subscribe {
+    display: inline-block;
+    margin: 98px 0 87px 354px;
+    position: absolute;
+    font-size: 24px;
+    z-index: 2;
+    color: white;
+}
+
+.subscribe2 {
+    display: inline-block;
+    margin: 128px 0 87px 354px;
+    position: absolute;
+    font-size: 36px;
+    z-index: 2;
+    color: white;
+}
+
+/* flash offer */
+.flash-small {
+    position: relative;
+    width: 0;
+    height: 0;
+    padding: 4px 9px;
+    left: 0;
+    top: -224px;
+    background: #EC1F46;
+    color: white;
+    font-size: 8px;
+    border-radius: 0 4px 4px 0;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    margin: 0;
+    -webkit-appearance: none; !important;
+    -moz-appearance: none; !important;
+    appearance: none; !important;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #EC1F46;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.btn-book-main {
+    position: relative;
+    float: right;
+    left: -21px;
+    top: 430px;
+    z-index: 6;
+    padding: 0;
+}
+
+.btn-book {
+    position: relative;
+    float: right;
+    left: -21px;
+    top: 185px;
+    z-index: 6;
+    padding: 0;
+}
+
+/* email typing & send bar */
+.form {
+    position: absolute;
+    margin: 108px 355px 97px 735px;
+    width: 350px;
+    height: 55px;
+}
+
+.form .form-email {
+    display: inline-block;
+    position: relative;
+    width: 317px;
+    height: 55px;
+    padding-left: 33px;
+    text-align: left;
+    z-index: 6;
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    border-style: none !important;
+}
+
+.form .send {
+    display: inline-block;
+    width: 65px;
+    height: 55px;
+    float: right;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    z-index: 8;
+    background-color: #EC1F46;
+    border-radius: 0 4px 4px 0;
+    padding: 0 !important;
+    border-style: none !important;
+}
+
+.button {
+    padding: 0;
+    border: none;
+}
