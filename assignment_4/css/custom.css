@@ -7,6 +7,15 @@ h1 {
     margin: 0;
 }
 
+footer {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height:260px;
+    margin:0 auto;
+    background-image: url('../img/bottomimage.png');
+}
+
 #main-wrapper {
     width: 1110px;
     height: 1030px;
@@ -74,12 +83,12 @@ h1 {
 }
 
 /* 각 호텔의 디테일 관련 */
-.ul-detail {
+ul {
     margin-top: 11px;
     list-style: none;
     padding-left: 0;
 }
-.li-detail {
+li {
     margin-bottom: 11px;
 }
 .map {
@@ -97,6 +106,7 @@ h1 {
 .in-text {
     margin: 0 21px 34px 44px;
     font-size: 14px;
+    height: 165px;
     line-height: 160.6%;
     color: white;
 }
@@ -146,57 +156,53 @@ h1 {
 
 /* NEWSLETTER */
 .newsLetter {
-    display: inline-block;
-    position: absolute;
-    width: 100%;
-    height:260px;
-    background-image: url('../img/bottomimage.png');
+    width: 764px;
+    height:75px;
+    margin:0 auto;
 }
 
 .subscribe {
-    display: inline-block;
-    margin: 98px 0 87px 354px;
-    position: absolute;
+    margin: 98px 0 87px 0;
     font-size: 24px;
+}
+
+.subscribe2 {
+    margin: 128px 0 87px 0;
+    font-size: 36px;
+}
+
+.subscribe, .subscribe2 {
+    display: inline-block;
+    position: absolute;
     z-index: 2;
     color: white;
 }
 
-.subscribe2 {
-    display: inline-block;
-    margin: 128px 0 87px 354px;
-    position: absolute;
-    font-size: 36px;
-    z-index: 2;
-    color: white;
-}
 .test {
     position: absolute;
 }
+
 /* flash offer */
 .flash-big {
-    position: relative;
-    width: 0;
-    height: 0;
     padding: 8px 12px 7px 11px;
-    left: 0;
     top: -300px;
-    background: #EC1F46;
-    color: white;
     font-size: 12px;
     font-weight: 600;
     border-radius: 0 4px 4px 0;
 }
 .flash-small {
+    padding: 4px 9px;
+    top: -224px;
+    font-size: 8px;
+}
+
+.flash-big, .flash-small {
     position: relative;
     width: 0;
     height: 0;
-    padding: 4px 9px;
     left: 0;
-    top: -224px;
     background: #EC1F46;
     color: white;
-    font-size: 8px;
     font-weight: 600;
     border-radius: 0 4px 4px 0;
 }
@@ -214,9 +220,8 @@ button {
     font-weight: bold;
     background-color: #EC1F46;
     border-radius: 4px;
-    border-style: none;
     padding: 0;
-    border: none;
+    border-style: none;
 }
 
 #btn-book-main {
@@ -240,7 +245,7 @@ button {
 /* email typing & send bar */
 .form {
     position: absolute;
-    margin: 108px 355px 97px 735px;
+    margin: 108px 355px 97px 381px;
     width: 350px;
     height: 55px;
 }
