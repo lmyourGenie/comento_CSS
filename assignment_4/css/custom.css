@@ -48,17 +48,15 @@ h1 {
 }
 
 .star {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin-top: 47px;
     margin-left: 44px;
 }
-.star2 {
+
+.star, .star2 {
     display: inline-block;
     width: 6px;
     height: 6px;
     margin-top: 47px;
+    background-image: url('../img/vector/star.svg');
 }
 
 .main-hotel-name {
@@ -172,8 +170,23 @@ h1 {
     z-index: 2;
     color: white;
 }
-
+.test {
+    position: absolute;
+}
 /* flash offer */
+.flash-big {
+    position: relative;
+    width: 0;
+    height: 0;
+    padding: 8px 12px 7px 11px;
+    left: 0;
+    top: -300px;
+    background: #EC1F46;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 0 4px 4px 0;
+}
 .flash-small {
     position: relative;
     width: 0;
@@ -184,6 +197,7 @@ h1 {
     background: #EC1F46;
     color: white;
     font-size: 8px;
+    font-weight: 600;
     border-radius: 0 4px 4px 0;
 }
 
@@ -201,9 +215,11 @@ button {
     background-color: #EC1F46;
     border-radius: 4px;
     border-style: none;
+    padding: 0;
+    border: none;
 }
 
-.btn-book-main {
+#btn-book-main {
     position: relative;
     float: right;
     left: -21px;
@@ -259,9 +275,4 @@ button {
     border-radius: 0 4px 4px 0;
     padding: 0 !important;
     border-style: none !important;
-}
-
-.button {
-    padding: 0;
-    border: none;
 }
