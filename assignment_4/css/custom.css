@@ -44,6 +44,7 @@ footer {
 /* 메인 호텔 */
 #inner-grid-main {
     display: grid;
+    height: 500px;
     grid-template-columns: 366px 364px;
     background: #0A223D;
 }
@@ -185,21 +186,21 @@ li {
 /* flash offer */
 .flash-big {
     padding: 8px 12px 7px 11px;
-    top: -300px;
+    width: 95px;
+    height: 30px;
+    top: -474px;
     font-size: 12px;
-    font-weight: 600;
-    border-radius: 0 4px 4px 0;
 }
 .flash-small {
     padding: 4px 9px;
+    width: 0;
+    height: 0;
     top: -224px;
     font-size: 8px;
 }
 
 .flash-big, .flash-small {
     position: relative;
-    width: 0;
-    height: 0;
     left: 0;
     background: #EC1F46;
     color: white;
