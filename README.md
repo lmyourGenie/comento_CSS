@@ -30,4 +30,4 @@
 
 ## 수료증
 
-<img src="./res/certificate.png" width="65%" alt="수료증">
+<img src="./res/certificate.PNG" width="65%" alt="수료증">
